@@ -38,6 +38,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+		<!--hateoas-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-hateoas</artifactId>
+		</dependency>
 
 		<!--벨리데이션-->
 		<dependency>
@@ -45,12 +51,20 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		
-		<!--open API-->
+		
+		<!--open API
 	   <dependency>
 	      <groupId>org.springdoc</groupId>
 	      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 	      <version>2.8.6</version>
 	   </dependency>
+	   
+	   jackson
+   	   <dependency>
+	      <groupId>com.fasterxml.jackson.dataformat</groupId>
+	      <artifactId>jackson-dataformat-xml</artifactId>
+	   </dependency>
+		-->
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
