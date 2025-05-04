@@ -39,6 +39,18 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
+		<!--모니터링 actuator-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		
+		<!--HAL Explorer-->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-rest-hal-explorer</artifactId>
+		</dependency>
+		
 		<!--hateoas-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
