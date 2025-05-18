@@ -1,5 +1,15 @@
+insert into todo(id,description,done,target_date,username)
+values (10001,'Learn AWS~!',false, current_date(),'in28minutes');
+
+insert into todo(id,description,done,target_date,username)
+values (10002,'Learn Azure!',false, current_date(),'in28minutes');
+
+insert into todo(id,description,done,target_date,username)
+values (10003,'Learn GCP!!!!!!',false, current_date(),'in28minutes');
+
+
 insert into user_details(id,birth_date,name)
-VALUES (10001,current_date(),'Renga');
+VALUES (10001,current_date(),'in28minutes');
 
 insert into user_details(id,birth_date,name)
 VALUES (10002,current_date(),'jihun');

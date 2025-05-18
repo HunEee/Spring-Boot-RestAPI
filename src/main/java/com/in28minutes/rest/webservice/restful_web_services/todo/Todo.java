@@ -12,7 +12,8 @@ public class Todo {
 		
 	@Id
 	@GeneratedValue
-	private int id;
+	private Integer id; //id가 null이면 todo를 삽입하고 id가 기존에 있는 값이면 업데이트
+					// id가 null을 가질 수 있을려면 래퍼클래스인 int에서 Integer로 변경해줘야한다.
 	private String username;
 	
 	@Size(min=10, message="10글자 이상 입력하세요")
@@ -26,7 +27,7 @@ public class Todo {
 		
 	}
 	
-	public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {
+	public Todo(Integer id, String username, String description, LocalDate targetDate, boolean done) {
 		super();
 		this.id = id;
 		this.username = username;
@@ -36,11 +37,11 @@ public class Todo {
 	}
 
 	
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 

@@ -13,6 +13,7 @@ public class RestfulWebServicesApplication {
 		SpringApplication.run(RestfulWebServicesApplication.class, args);
 	}
 
+	
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
